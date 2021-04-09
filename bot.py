@@ -33,6 +33,7 @@ def get_group(message):
     bot.send_message (message.chat.id,"Я сохранил эту информацию, сейчас найду ваше расписание.")
 
 @bot.message_handler(commands=['help'])
+
 def help_handler(message):
     bot.send_message(message.from_user.id, "Какие команды я умею выполнять:")
 
