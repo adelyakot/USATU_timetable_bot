@@ -40,7 +40,7 @@ def help_handler(message):
 
 planedtime = datetime(2021, 4, 9, 16, 50, 0, 0)
 now = datetime.datetime.now()
-if (planedtime==(datetime.datetime.now()))
+if (planedtime==(datetime.datetime.now())):
       @bot.message_handler(content_types=['text'])
           def handle_message(message):
               try: 
