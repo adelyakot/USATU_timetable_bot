@@ -41,7 +41,7 @@ def help_handler(message):
 
     
 
-planedtime = datetime(2021, 4, 9, 16, 50, 0, 0)
+planedtime = datetime(2021, 4, 9, 17, 10 , 0, 0)
 now = datetime.datetime.now()
 if (planedtime==(datetime.datetime.now())):
       @bot.message_handler(content_types=['text'])
